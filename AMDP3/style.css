@@ -1,0 +1,252 @@
+* {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #180A0A;
+    font-size: 15px;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 70px;
+}
+
+.navbar input {
+    display: flex;
+}
+
+.navbar input {
+    width: 500px; 
+    height: 35px;
+}
+
+.select-content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-card img{
+    width: 200px;
+}
+
+.shop-card {
+    margin-bottom: 50px;
+    background-color: #FFF9F9;
+    height: 200px;
+    width: 500px;
+    box-shadow: 0 0 6px 0px #73777B;
+    display: flex;
+}
+
+.shop-info {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.register-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form input {
+    margin-bottom: 20px;
+}
+
+.wide-container {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.settings-item {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.blue-redirect{
+    color: blue;
+}
+
+#toggle-popup {
+    margin-top: 15px;
+}
+
+#popup {
+    padding: 50px;
+    border: none;
+    width: 450px;
+}
+
+.setting-button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shop-header img {
+    width: 200px;
+}
+
+.div-container {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-container-inner {
+    background-color: #FFF9F9;
+    box-shadow: 0 0 6px 0px #73777B;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shop-header {
+    display: flex;
+    align-self: flex-start;
+    padding: 20px;
+}
+
+.shop-item-container img {
+    width: 150px;
+}
+
+.shop-item-container {
+    display: flex;
+    box-shadow: 0 0 6px 0px #73777B;
+    width: 670px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.shop-info h3 {
+    display: none;
+}
+
+.item-detail {
+    margin-top: 30px;
+}
+
+.item-detail-form {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-bottom: 20px;
+}
+
+.amount-container {
+    width: 100px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.history-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.img-tenant-settings {
+    width: 150px;
+}
+
+.content-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.admin-content img {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.admin-content {
+    margin-bottom: 50px;
+    background-color: #FFF9F9;
+    height: 170px;
+    width: 150px;
+    box-shadow: 0 0 6px 0px #73777B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manage-admin-container .div-container-inner {
+    padding-top: 50px;
+}
+
+.div-container-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.add-anchor {
+    margin-left: 25%;
+}
+
+.button-grouping {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.category-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.tenant-header img {
+    width: 200px;
+}
+
+.search-button {
+    width: 50px;
+}
